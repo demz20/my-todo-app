@@ -11,6 +11,6 @@ export const pool = mysql.createPool({
         rejectUnauthorized: true, // This is required for TiDB Cloud
     },
     waitForConnections: true,
-    connectionLimit: 10,
+    connectionLimit: 1, // Recommended for Serverless/Vercel
     queueLimit: 0
 });
