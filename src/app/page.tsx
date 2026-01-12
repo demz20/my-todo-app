@@ -1,4 +1,4 @@
-export const dynamic = 'force-dynamic'; // This prevents the build error by skipping prerendering
+// export const dynamic = 'force-dynamic'; // This prevents the build error by skipping prerendering
 
 import { getTodos } from './actions';
 import { Providers } from './providers';
