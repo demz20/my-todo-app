@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@fluentui/react-components": "^9.72.9",
+    "@fluentui/react-icons": "^2.0.316",
+    "mysql2": "^3.16.0",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
